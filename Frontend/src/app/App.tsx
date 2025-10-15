@@ -1,13 +1,18 @@
 import { BrowserRouter } from 'react-router-dom';
 
+import { LogProvider } from '@contexts';
 import { AppRouter } from '@routes';
+
+import '@utils';
 
 import '@styles/App.css';
 
 function App() {
   return (
     <BrowserRouter>
-      <AppRouter />
+      <LogProvider>
+        <AppRouter />
+      </LogProvider>
     </BrowserRouter>
   );
 }
