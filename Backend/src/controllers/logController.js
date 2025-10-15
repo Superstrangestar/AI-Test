@@ -1,5 +1,4 @@
-import { aiService } from '../services/aiService.js';
-import { storageService } from '../services/storageService.js';
+import { aiService, storageService } from '../services/index.js';
 
 export const logController = {
   // Process a task through AI
@@ -17,7 +16,7 @@ export const logController = {
 
       const savedLog = storageService.saveLog(aiResponse);
 
-      res.json(aiResponse);
+      res.json(savedLog);
     } catch (error) {
       console.error('Error processing task:', error);
       res.status(500).json({
