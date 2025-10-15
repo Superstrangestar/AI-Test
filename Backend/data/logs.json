@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1760515747594",
+    "task": "dfdfg",
+    "status": "completed",
+    "result": "Task \"dfdfg\" processed successfully. Analysis complete with recommendations for optimization.",
+    "insights": [
+      "Task completed successfully",
+      "No specific patterns detected"
+    ],
+    "timestamp": "2025-10-15T08:09:07.594Z"
+  },
+  {
+    "id": "1760515737337",
+    "task": "generate weekly metrics",
+    "status": "completed",
+    "result": "Weekly metrics report generated. Key highlights: 45 new signups, 22% conversion rate, $125K MRR.",
+    "insights": [
+      "Trial-to-paid conversion: 18%",
+      "Churn rate decreased to 2.1%"
+    ],
+    "timestamp": "2025-10-15T08:08:57.338Z"
+  },
+  {
+    "id": "1760515733833",
+    "task": "summarize calls",
+    "status": "completed",
+    "result": "Call summary generated: 15 customer calls this week, 12 positive outcomes, 3 follow-ups required.",
+    "insights": [
+      "Customer satisfaction score: 4.8/5",
+      "2 upsell opportunities identified"
+    ],
+    "timestamp": "2025-10-15T08:08:53.833Z"
+  },
+  {
+    "id": "1760515725758",
+    "task": "review sales data",
+    "status": "completed",
+    "result": "Sales data reviewed. Revenue increased by 15% month-over-month, with strongest growth in Enterprise segment.",
+    "insights": [
+      "Enterprise sales up 25%",
+      "SMB segment showing steady growth"
+    ],
+    "timestamp": "2025-10-15T08:08:45.758Z"
+  }
+]
